@@ -1,0 +1,23 @@
+{
+  "name": "faizpolymer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/vulcanize/bin/vulcanize --inline-scripts --inline-css --strip-comments ld-polymer.html > index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizshukri/ld-polymer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizshukri/ld-polymer/issues"
+  },
+  "homepage": "https://github.com/faizshukri/ld-polymer#readme",
+  "dependencies": {
+    "vulcanize": "~1.14.8"
+  }
+}
